@@ -15,5 +15,5 @@ def bubble_sort(arr):
 
 random_list = [random.randint(0, 100) for _ in range(10)]
 print(f"Original list: {random_list}")
-sorted_list = bubble_sort(random_list)
-print(f"Sorted list: {sorted_list}")
+bubble_sort(random_list)
+print(f"Sorted list: {random_list}")
